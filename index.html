@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class=" py-5 ">
+            <h3 class="color">Bookmarker</h3>
+        </div>
+        <div class=" border border-1 border-gray mb-3"></div>
+        <div class=" row ">
+            <div class=" col-sm-12 bg-gr p-5  ">
+                <div class=" text-center  ">
+                    <h2>Bookmark your favorite sites</h2>
+                    <form>
+                        <div class=" form-group">
+                            <label class=" mt-3"> <span>Site Name</span></label>
+                            <input id="SiteName" type=" text" class=" form-control my-2 w-75 m-auto "
+                                placeholder="Bookmark Name">
+                            <label> <span>Site URL</span></label>
+                            <input id="SiteURL" type=" text" class=" form-control my-2 w-75 m-auto"
+                                placeholder="Website URL">
+                            <div id="alertNameInput" class="alert d-none w-75 m-auto alert-danger " role="alert">
+                                <strong>please use a valid URL...........</strong>
+                            </div>
+
+                            <button type="button" class=" btn btn-primary my-2" onclick=" add();">submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <table class=" table">
+            <tbody id="tableRow">
+
+
+            </tbody>
+        </table>
+        <div class=" border border-1 border-gray mt-3"></div>
+
+        <p class=" color py-5">© 2024 Bookmarker Inc.</p>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+
+
+</html>

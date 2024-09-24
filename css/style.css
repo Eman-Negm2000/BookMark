@@ -1,0 +1,28 @@
+
+*{
+  font-family: arial;
+}
+
+
+
+.border-gray{
+
+  background-color: darkgray;
+}
+
+.color{
+  color: darkgray;
+
+}
+
+.bg-gray{
+  background-color: darkgray;
+
+}
+
+.bg-gr{
+  background-color: rgb(221, 212, 212);
+}
+span{
+  font-weight: bold;
+}
